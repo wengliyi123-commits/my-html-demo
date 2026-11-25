@@ -1,0 +1,52 @@
+<!-- Esempio: FORMS -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Esempi di Meccatronica">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Roberto Pioggia">       
+        <title>Meccatronica HTML5</title>
+        <link rel="icon" type="image/x-icon" href="../_Immagini/favicon.png">                        
+    </head>
+    <body> 
+
+        <h2>HTML Forms</h2>
+
+        <form action="#" method="post">
+          <label for="fname">Nome:</label><br>
+          <input type="text" id="fname" name="fname" value="Roberto"><br><br>
+
+          <label for="quantity">Percentuale:</label>
+          <input type="number" id="quantity" name="quantity" min="0" max="100"> <br><br> 
+
+          <label for="car">Automobili:</label>  
+          <select id="car" name="car">
+                <option value="Fiat">Fiat</option>
+                <option value="Audi">Audi</option>
+                <option value="Tesla">Tesla</option>
+          </select> <br> <br>
+
+
+          <label for="vehicle1"> Ho uno scooter</label><br>          
+          <input type="checkbox" id="vehicle1" name="vehicle1"><br><br>
+
+
+          <label for="birthday">Compleanno:</label>          
+          <input type="date" id="birthday" name="birthday"> <br> <br>                     
+
+            <label for="note">Note:</label>
+            <br>
+            <textarea id="note" name="note"
+                      rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Salva</button>
+
+            <button type="reset">Annulla</button>
+        </form> 
+        
+        <p>Se fai clic sul pulsante "Invia", i dati del modulo verranno inviati.</p>    
+       
+    </body>
+</html>
+
